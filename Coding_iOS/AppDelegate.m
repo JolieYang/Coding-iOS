@@ -149,6 +149,7 @@
         }
     }];
     
+    /*
     //    信鸽推送
     [XGPush startApp:kXGPush_Id appKey:kXGPush_Key];
     [Login setXGAccountWithCurUser];
@@ -167,6 +168,7 @@
     
     //推送反馈(app不在前台运行时，点击推送激活时。统计而已)
     [XGPush handleLaunching:launchOptions];
+     */
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -3132,6 +3132,7 @@
 		927AFF571BFF755200AAE593 /* ExchangeGoodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeGoodsViewController.m; sourceTree = "<group>"; };
 		927AFF591BFF772A00AAE593 /* ShopOrderTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopOrderTextFieldCell.h; sourceTree = "<group>"; };
 		927AFF5A1BFF772A00AAE593 /* ShopOrderTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopOrderTextFieldCell.m; sourceTree = "<group>"; };
+		A051B2211EC2FE3800D43442 /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = Carthage/Build/iOS/ObjectiveGit.framework; sourceTree = "<group>"; };
 		B1C871121EADAEE1003DACF0 /* loading_monkey@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "loading_monkey@2x.gif"; sourceTree = "<group>"; };
 		B1C871141EADF0B1003DACF0 /* messageAT@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messageAT@3x.png"; sourceTree = "<group>"; };
 		B1C871151EADF0B1003DACF0 /* messageComment@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messageComment@3x.png"; sourceTree = "<group>"; };
@@ -4967,6 +4968,7 @@
 		8E477012198770E700997D05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A051B2211EC2FE3800D43442 /* ObjectiveGit.framework */,
 				4EFF5A761E0AE54800683D03 /* libresolv.9.tbd */,
 				4EDBECEA1B709EB3003E87C3 /* AVFoundation.framework */,
 				4EF818231B09D8D8005F974B /* WebP.framework */,
@@ -6475,14 +6477,14 @@
 				ORGANIZATIONNAME = Coding;
 				TargetAttributes = {
 					8E47700F198770E700997D05 = {
-						DevelopmentTeam = QN5Z87S3LH;
+						DevelopmentTeam = 5STM2R5485;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
 							};
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -7973,7 +7975,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos10.0;
 			};
 			name = Debug;
 		};
@@ -8007,7 +8009,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos10.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -8018,11 +8020,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = Coding_iOS/Coding_iOS.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = QN5Z87S3LH;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -8048,10 +8049,11 @@
 					"$(PROJECT_DIR)/Coding_iOS/Util/Audio/opencore-amr-iOS/lib",
 					"$(PROJECT_DIR)/Coding_iOS/Vendor/UMSocial_Sdk_4.3.0_Extra/SinaSSO",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.coding.CodingForiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jolie.Target;
 				PRODUCT_NAME = Coding_iOS;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos10.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -8063,11 +8065,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = Coding_iOS/Coding_iOS.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = QN5Z87S3LH;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -8093,10 +8094,11 @@
 					"$(PROJECT_DIR)/Coding_iOS/Util/Audio/opencore-amr-iOS/lib",
 					"$(PROJECT_DIR)/Coding_iOS/Vendor/UMSocial_Sdk_4.3.0_Extra/SinaSSO",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.coding.CodingForiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jolie.Target;
 				PRODUCT_NAME = Coding_iOS;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos10.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

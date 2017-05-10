@@ -161,7 +161,7 @@ static User *curLoginUser;
             [[NSHTTPCookieStorage sharedHTTPCookieStorage] deleteCookie:obj];
         }
     }];
-    [Login setXGAccountWithCurUser];
+//    [Login setXGAccountWithCurUser];
 }
 
 + (void)setPreUserEmail:(NSString *)emailStr{
